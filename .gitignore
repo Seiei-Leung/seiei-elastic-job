@@ -1,0 +1,41 @@
+*.class
+
+# package file
+*.war
+*.ear
+
+#maven 文件
+target/
+
+# eclipse 文件
+.settings/
+.project
+.classpath
+
+# idea 文件
+.idea/
+/idea/
+classes/
+*.ipr
+*.iml
+*.iws
+
+# Vue 文件
+src/main/webapp/ps/
+src/main/webapp/static/
+src/main/webapp/index.html
+
+out/
+
+# temp 文件（缓存文件）
+
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+
+.DS_Store
+.Thumbs.db
